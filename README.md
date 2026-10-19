@@ -1,8 +1,8 @@
 # mattmcf.com
 
-Personal index for [mattmcf.com](https://mattmcf.com): a static homepage linking to [MN Parks](https://parks.mattmcf.com) and [GitHub](https://github.com/mattmcf). It is a map of the domain, not a geographic park map.
+Personal index for [mattmcf.com](https://mattmcf.com): a static homepage linking to [MN Parks](https://parks.mattmcf.com), [LinkedIn](https://linkedin.mattmcf.com), and [GitHub](https://github.com/mattmcf). It is a map of the domain, not a geographic park map.
 
-Hosted on **GitHub Pages** ($0) from this public repo. Parks stays on Render at `parks.mattmcf.com`.
+Hosted on **GitHub Pages** ($0) from this public repo. Parks stays on Render at `parks.mattmcf.com`. LinkedIn stays on the existing `linkedin` A records.
 
 ## Local
 
