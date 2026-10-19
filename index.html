@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Matt McFarland — personal index for mattmcf.com. Links to MN Parks, LinkedIn, and GitHub."
+      content="Matt McFarland, engineering manager. Projects and personal links."
     />
     <title>Matt McFarland</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,38 +21,35 @@
       <header class="masthead">
         <p class="domain">mattmcf.com</p>
         <h1>Matt McFarland</h1>
-        <p class="lede">
-          A small index of this domain — parks, LinkedIn, and a door out to
-          GitHub. Not a geographic map; just a list of where to go.
-        </p>
       </header>
 
-      <nav class="index" aria-label="Places on and off this domain">
-        <a class="place" href="https://parks.mattmcf.com">
-          <span class="place-host">parks.mattmcf.com</span>
-          <span class="place-name">MN Parks</span>
-          <span class="place-copy">
-            A map of parks in Minnesota — state, national, regional, and county.
-          </span>
-        </a>
-        <a class="place" href="https://linkedin.mattmcf.com">
-          <span class="place-host">linkedin.mattmcf.com</span>
-          <span class="place-name">LinkedIn</span>
-          <span class="place-copy">
-            Professional profile. This subdomain already points at LinkedIn.
-          </span>
-        </a>
-        <a class="place" href="https://github.com/mattmcf">
-          <span class="place-host">github.com/mattmcf</span>
-          <span class="place-name">GitHub</span>
-          <span class="place-copy">
-            Public code, including the parks app and this homepage.
-          </span>
-        </a>
-      </nav>
+      <section class="section" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <nav class="index" aria-label="Projects">
+          <a class="place" href="https://parks.mattmcf.com">
+            <span class="place-host">parks.mattmcf.com</span>
+            <span class="place-name">MN Parks</span>
+            <span class="place-copy">
+              A map of parks in Minnesota — state, national, regional, and county.
+            </span>
+          </a>
+        </nav>
+      </section>
+
+      <section class="section" aria-labelledby="personals-heading">
+        <h2 id="personals-heading">Personals</h2>
+        <nav class="index" aria-label="Personals">
+          <a class="place" href="https://github.com/mattmcf">
+            <span class="place-name">GitHub</span>
+          </a>
+          <a class="place" href="https://linkedin.mattmcf.com">
+            <span class="place-name">LinkedIn</span>
+          </a>
+        </nav>
+      </section>
 
       <footer>
-        <p>Matt McFarland · software engineer</p>
+        <p>Matt McFarland · engineering manager</p>
       </footer>
     </div>
     <script type="module" src="/src/main.ts"></script>
